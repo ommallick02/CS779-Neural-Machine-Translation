@@ -1,0 +1,32 @@
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Data (competition data not redistributed)
+data/
+*.json
+!package.json
+
+# Model checkpoints / large artifacts
+*.pt
+*.pth
+*.bin
+checkpoints/
+models/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
