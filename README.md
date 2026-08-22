@@ -4,7 +4,7 @@ Neural Machine Translation system for English → Hindi and English → Bengali,
 
 **Final result:** Bidirectional GRU Encoder–Decoder with Cross Attention and Beam Search decoding — chrF++ 0.331, ROUGE 0.431, BLEU 0.123. Ranked 58th on the test-phase leaderboard.
 
-Full writeup: [`Report/CS799-CP-om-mallick-251110055-report.pdf`](./Report/CS799-CP-om-mallick-251110055-report.pdf)
+Full writeup: [`Report/CS779-CP-om-mallick-251110055-report.pdf`](./Report/CS779-CP-om-mallick-251110055-report.pdf)
 
 ## Repo structure
 
@@ -18,7 +18,7 @@ CS779-Neural-Machine-Translation/
 ├── Final Notebook/
 │   └── CS779-CP-om-mallick-251110055.ipynb
 ├── Report/
-│   └── CS799-CP-om-mallick-251110055-report.pdf
+│   └── CS779-CP-om-mallick-251110055-report.pdf
 └── Submissions/
     └── answer.csv
 ```
@@ -49,7 +49,7 @@ This is the model described in the report, the one that achieved chrF++ 0.331 / 
 
 ## Report and submissions
 
-- **`Report/CS799-CP-om-mallick-251110055-report.pdf`** — the full competition report: problem description, data analysis, model architecture, experiments, hyperparameter search, results, error analysis, and key learnings. Includes detailed discussion of architectural evolution (unidirectional → bidirectional, no attention → attention), ablations (GRU vs. LSTM, pretrained embeddings, Transformer variants), and insights on decoding strategies (greedy vs. beam search).
+- **`Report/CS779-CP-om-mallick-251110055-report.pdf`** — the full competition report: problem description, data analysis, model architecture, experiments, hyperparameter search, results, error analysis, and key learnings. Includes detailed discussion of architectural evolution (unidirectional → bidirectional, no attention → attention), ablations (GRU vs. LSTM, pretrained embeddings, Transformer variants), and insights on decoding strategies (greedy vs. beam search).
 
 - **`Submissions/answer.csv`** — the final prediction output file in the competition's submission format (ID, Translation pairs for the test set).
 
